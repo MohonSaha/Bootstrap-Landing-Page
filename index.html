@@ -2,106 +2,224 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Reveal</title>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Reveal</title>
 
-    <!-- Bootstrap  -->
-    <link rel="stylesheet" href="css/bootstrap.css">
-    <!-- Internal Css  -->
-    <link rel="stylesheet" href="css/style.css">
-    <!-- Font awesome  -->
-    <script src="https://kit.fontawesome.com/98c3577fe9.js" crossorigin="anonymous"></script>
+  <!-- Bootstrap  -->
+  <link rel="stylesheet" href="css/bootstrap.css">
+  <!-- Internal Css  -->
+  <link rel="stylesheet" href="css/style.css">
+  <!-- Font awesome  -->
+  <script src="https://kit.fontawesome.com/1950ee4dcd.js" crossorigin="anonymous"></script>
 </head>
+
 <body>
-<!-- Header start  -->
-<header> 
+  <!-- Header start  -->
+  <header>
     <!-- Start Navbar  -->
     <div>
-        <nav class="navbar navbar-expand-lg bg-body-tertiary container">
-            <div class="container-fluid">
-              <h1 class="fw-bold display-4 text-primary">Reve<span class="text-secondary">al</span></h1>
-              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-              </button>
-              <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
-                  <li class="nav-item">
-                    <a class="nav-link active" aria-current="page" href="#">Home</a>
+      <nav class="navbar navbar-expand-lg bg-body-tertiary container">
+        <div class="container-fluid">
+          <h1 class="fw-bold display-4 text-primary custom-nav-title">Reve<span class="text-secondary">al</span></h1>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+            data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+            aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">About</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                  aria-expanded="false">
+                  Service
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="#">Action</a></li>
+                  <li><a class="dropdown-item" href="#">Another action</a></li>
+                  <li>
+                    <hr class="dropdown-divider">
                   </li>
-                  <li class="nav-item">
-                    <a class="nav-link" href="#">About</a>
-                  </li>
-                  <li class="nav-item dropdown">
-                    <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                      Service
-                    </a>
-                    <ul class="dropdown-menu">
-                      <li><a class="dropdown-item" href="#">Action</a></li>
-                      <li><a class="dropdown-item" href="#">Another action</a></li>
-                      <li><hr class="dropdown-divider"></li>
-                      <li><a class="dropdown-item" href="#">Something else here</a></li>
-                    </ul>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link">Login</a>
-                  </li>
+                  <li><a class="dropdown-item" href="#">Something else here</a></li>
                 </ul>
-              </div>
-            </div>
-          </nav>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link">Login</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
     </div>
 
     <!-- start Caousel  -->
+
     <div id="carouselExample" class="carousel slide">
-        <div class="carousel-inner">
-          <div class="carousel-item active">
-            <div class="banner-img-1 d-flex justify-content-center align-items-center">
-               <div class="text-center">
-                <h1 class="text-primary display-3 fw-bold">Making <span class="text-secondary text-decoration-underline">your ideas</span> <br> happen!</h1>
-                <p class="text-primary">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae esse hic tempore temporibus minima expedita?</p>
-                <button class="btn btn-primary">Get Started</button>
-                <button class="btn btn-secondary">Our Project</button>
-               </div>
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <div class="banner-img-1 d-flex justify-content-center align-items-center">
+            <div class="text-center">
+              <h1 class="text-primary display-3 fw-bold">Making <span
+                  class="text-secondary text-decoration-underline">your ideas</span> <br> happen!</h1>
+              <p class="text-primary">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae esse hic tempore
+                temporibus minima expedita?</p>
+              <button class="btn btn-primary">Get Started</button>
+              <button class="btn btn-secondary">Our Project</button>
             </div>
           </div>
-          <div class="carousel-item">
-            <div class="banner-img-2 d-flex justify-content-center align-items-center">
-          </div>
-          <div class="carousel-item">
-            <div class="banner-img-3 d-flex justify-content-center align-items-center">
+        </div>
+        <div class="carousel-item">
+          <div class="banner-img-2 d-flex justify-content-center align-items-center">
+            <div class="text-center">
+              <h1 class="text-primary display-3 fw-bold">Making <span
+                  class="text-secondary text-decoration-underline">your ideas</span> <br> happen!</h1>
+              <p class="text-primary">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae esse hic tempore
+                temporibus minima expedita?</p>
+              <button class="btn btn-primary">Get Started</button>
+              <button class="btn btn-secondary">Our Project</button>
+            </div>
           </div>
         </div>
-        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
-          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-          <span class="visually-hidden">Previous</span>
-        </button>
-        <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
-          <span class="carousel-control-next-icon" aria-hidden="true"></span>
-          <span class="visually-hidden">Next</span>
-        </button>
+        <div class="carousel-item">
+          <div class="banner-img-1 d-flex justify-content-center align-items-center">
+            <div class="text-center">
+              <h1 class="text-primary display-3 fw-bold">Making <span
+                  class="text-secondary text-decoration-underline">your ideas</span> <br> happen!</h1>
+              <p class="text-primary">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae esse hic tempore
+                temporibus minima expedita?</p>
+              <button class="btn btn-primary">Get Started</button>
+              <button class="btn btn-secondary">Our Project</button>
+            </div>
+          </div>
+        </div>
       </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon custom-carouel-btn" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next " type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+        <span class="carousel-control-next-icon custom-carouel-btn" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
 
-</header>
+  </header>
 
-<!-- Main Start  -->
-<main>
+  <!-- Main Start  -->
+  <main>
+    <section class=" container my-5 py-5">
+      <div class="row d-flex align-items-center g-5">
+        <div class="col-md-6">
+          <img class="w-100" src="./image/about-img.jpg" alt="">
+        </div>
+        <div class="col-md-6">
+          <div>
+            <h1 class="text-primary fw-bold">Who are you</h1>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis, pariatur.</p>
+            <ul>
+              <li>Lorem ipsum dolor sit amet consectetur.</li>
+              <li>Lorem ipsum dolor sit amet consectetur adipisicing.</li>
+              <li>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dolorem, quo sed excepturi illum magni illo!
+              </li>
 
-</main>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
 
-<!-- Footer start  -->
-<footer>
+    <!-- services section  -->
+    <section class="container">
+      <h1 class="text-primary fw-bold">Services</h1>
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis aliquam harum non quam. At, minima
+        perferendis. Illum obcaecati magnam debitis enim. Sit adipisci doloribus tenetur.Lorem ipsum dolor sit amet
+        consectetur, adipisicing elit. Eius in reiciendis aut amet ipsum Lorem ipsum dolor sit amet consectetur,
+        adipisicing elit. Eius in reiciendis aut amet ipsum dolore!</p>
 
-</footer>
+      <div class="row my-5">
+        <div class="col-md-6">
+          <div class="d-flex gap-3  align-items-center shadow py-2 px-3">
+            <i class="fa-solid fa-brain fa-4x text-secondary"></i>
+            <div >
+              <h3 class="text-secondary">Digital Transforming</h3>
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur, modi blanditiis provident laudantium odit odio.</p>
+            </div>
+          </div>
+          <div class="d-flex gap-3  align-items-center shadow py-2 px-3 my-4">
+            <i class="fa-solid fa-brain fa-4x text-secondary"></i>
+            <div >
+              <h3 class="text-secondary">Digital Transforming</h3>
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur, modi blanditiis provident laudantium odit odio.</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-6">
+          <div class="d-flex gap-3  align-items-center shadow py-2 px-3">
+            <i class="fa-solid fa-brain fa-4x text-secondary"></i>
+            <div >
+              <h3 class="text-secondary">Digital Transforming</h3>
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur, modi blanditiis provident laudantium odit odio.</p>
+            </div>
+          </div>
+          <div class="d-flex gap-3  align-items-center shadow py-2 px-3 my-4">
+            <i class="fa-solid fa-brain fa-4x text-secondary"></i>
+            <div >
+              <h3 class="text-secondary">Digital Transforming</h3>
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur, modi blanditiis provident laudantium odit odio.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Client Section  -->
+    <section class="container my-5 py-5">
+      <h1 class="text-primary">Clients</h1>
+      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsa et ex assumenda, dolorem nostrum quis accusamus! Illum amet iure, veritatis illo deleniti dolores nobis eligendi quod praesentium possimus dolorum consequuntur? Nobis dolor quisquam commodi delectus non itaque! Quidem, eaque culpa.</p>
+
+      <div class="d-flex justify-content-between flex-wrap">
+        <img class="client-image" src="./image/clients/client-1.png" alt="">
+        <img class="client-image" src="./image/clients/client-2.png" alt="">
+        <img class="client-image" src="./image/clients/client-3.png" alt="">
+        <img class="client-image" src="./image/clients/client-4.png" alt="">
+        <img class="client-image" src="./image/clients/client-5.png" alt="">
+        <img class="client-image" src="./image/clients/client-6.png" alt="">
+      </div>
+    </section>
+
+
+    <!-- Call To Action Section  -->
+    <section class="bg-primary my-5 py-5 ">
+      <div class=" container">
+        <h2 class="text-white fw-bold">Call TO Action</h2>
+      <p class="text-white">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Esse temporibus similique distinctio ducimus qui a. Quae quo exercitationem eaque provident illum ipsam aliquid, eos libero ea laboriosam nam, excepturi vitae.</p>
+      <button class="btn btn-outline-secondary">Call To Action</button>
+      </div>
+    </section>
+
+
+
+  </main>
+
+  <!-- Footer start  -->
+  <footer>
+
+  </footer>
 
 
 
 
 
-    
 
-    <script src="js/bootstrap.js"></script>
+
+  <script src="js/bootstrap.js"></script>
 </body>
 
 </html>

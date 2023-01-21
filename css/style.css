@@ -11,5 +11,14 @@
     height: 100vh;
 }
 .client-image{
-    width: 160px;
+    width: 170px;
+}
+
+.custom-nav-title{
+    margin-top: -15px;
+    margin-bottom: -8px;
+}
+
+.custom-carouel-btn{
+    background-color: #8a8888;
 }
