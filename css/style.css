@@ -22,3 +22,9 @@
 .custom-carouel-btn{
     background-color: #8a8888;
 }
+
+.custom-anchor-refresh{
+    cursor: pointer;
+    text-decoration: none;
+    color: #0c2e8a;
+}
